@@ -29,88 +29,52 @@
 
 </div>
 
-<!-- Question 1 --->
+<!--- Div class for question-->
 <div class="question">
+    <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
 
-    <h2>In which Disney film soundtack is Lana's cover "Once Upon a Dream" apart of?</h2>
-        <form id ="questionForm">
-            <input type="radio" name="question1" value="wrong"> Cinderella
-            <input type="radio" name="question1" value="wrong"> Sleeping Beauty
-            <input type="radio" name="question1" value="wrong"> Beauty and The Beast
-            <input type="radio" name="question1" value="correct"> Maleficent
+        <li><div class="question">In which Disney film soundtack is Lana's cover "Once Upon a Dream" apart of?</div></li>
+        <input id="answer" type="radio" name="group1" value="wrong"> Cinderella<br>
+        <input id="answer" type="radio" name="group1" value="wrong"> Sleeping Beauty<br>
+        <input id="answer" type="radio" name="group1" value="wrong"> Beauty and the Beast<hr>
+        <input id="answer" type="radio" name="group1" value="correct"> Maleficent<br>
+        
+        <li><div class="question">What is Lana Del Rey's actual name?</div></li>
+        <input id="answer" type="radio" name="group2" value="wrong">May Jailer<br>
+        <input id="answer" type="radio" name="group2" value="wrong">Lizzy Smith<br>
+        <input id="answer" type="radio" name="group2" value="correct"> Elizabeth Woolridge Grant<br>
+        <input id="answer" type="radio" name="group2" value="wrong">Nancy Jones<hr>
+        
+        <li><div class="question">What is the name of Lana's sixth studio album?</div></li>
+        <input id="answer" type="radio" name="group3" value="wrong">Elvis<br>
+        <input id="answer" type="radio" name="group3" value="correct">Norman Fucking Rockwell<br>
+        <input id="answer" type="radio" name="group3" value="wrong">Pawn Shop Blues<br>
+        <input id="answer" type="radio" name="group3" value="wrong" >Hollywood's Not Dead<hr>
+
+        <li><div class="question">Which one of these tracks is only on the special edition of the ablum Ultraviolence?</div></li>
+        <input id="answer" type="radio" name="group4" value="correct">Flipside<br>
+        <input id="answer" type="radio" name="group4" value="wrong">Serial Killer<br>
+        <input id="answer" type="radio" name="group4" value="wrong">Florida Kilos<br>
+        <input id="answer" type="radio" name="group4" value="wrong" >Burning Desire<hr>
+
+        <li><div class="question">Lana gained mainstream notoriety for a popular remix of which Born to Die track?</div></li>
+        <input id="answer" type="radio" name="group5" value="wrong">Video Games<br>
+        <input id="answer" type="radio" name="group5" value="correct">Summertime Sadness<br>
+        <input id="answer" type="radio" name="group5" value="wrong">Radio<br>
+        <input id="answer" type="radio" name="group5" value="wrong" >Born to Die<hr>
+
+        <li><div class="question">What is the name of Lana's first released album?</div></li>
+        <input id="answer" type="radio" name="group6" value="wrong">Born to Die<br>
+        <input id="answer" type="radio" name="group6" value="wrong"> Kill Kill<br>
+        <input id="answer" type="radio" name="group6" value="correct">Sirens<br>
+        <input id="answer" type="radio" name="group6" value="wrong" >Lana Del Rey<hr>
+        
+        <button class="submit" onclick="return handleClick();" type="submit">Submit</button>
+            
         </form>
-</div>
-<!-- Question 2 --->
-<div class="question">
-
-    <h2>What's Lana Del Rey's actual name?</h2>
-    <form id="questionForm">
-        <input type="radio" name="question2" value="wrong"> May Jailer
-        <input type="radio" name="question2" value="wrong"> Lizzy Smith
-        <input type="radio" name="question2" value="correct"> Elizabeth Woolridge Grant
-        <input type="radio" name="question2" value="wrong"> Nancy Jones
-    </form>
 
 </div>
-<!-- Question 3 --->
-<div class="question">
 
-    <h2>What is the name of Lana's sixth studio album?</h2>
-    <form id="questionForm">
-        <input type="radio" name="question3" value="wrong"> Elvis
-        <input type="radio" name="question3" value="correct"> Norman Fucking Rockwell
-        <input type="radio" name="question3" value="wrong"> Pawn Shop Blues
-        <input type="radio" name="question3" value="wrong"> Hollywood's Dead
-    </form>
-
-</div>
-<!-- Question 4 --->
-
-<div class="question">
-
-    <h2>Which one of these tracks is only on the special edition of the ablum Ultraviolence?</h2>
-    <form id="questionForm">
-        <input type="radio" name="question4" value="correct"> Flipside
-        <input type="radio" name="question4" value="wrong"> Serial Killer
-        <input type="radio" name="question4" value="wrong"> Florida Kilos
-        <input type="radio" name="question4" value="wrong"> Burning Desire
-    </form>
-
-</div>
-<!-- Question 5 --->
-
-<div class="question">
-
-    <h2>Lana gained mainstream notoriety for a popular remix of which Born to Die track?</h2>
-    <form id="questionForm">
-        <input type="radio" name="question5" value="wrong"> Video Games
-        <input type="radio" name="question5" value="correct"> Summertime Sadness
-        <input type="radio" name="question5" value="wrong"> Radio
-        <input type="radio" name="question5" value="wrong"> Born to Die
-    </form>
-
-</div>
-<!-- Question 6 --->
-
-<div class="question">
-
-    <h2>What is the name of Lana Del Rey's first released album?</h2>
-    <form id="questionForm">
-        <input type="radio" name="question6" value="wrong"> Born to Die
-        <input type="radio" name="question6" value="wrong"> Kill Kill
-        <input type="radio" name="question6" value="correct"> Sirens
-        <input type="radio" name="question6" value="wrong"> Lana Del Rey
-    </form>
-
-</div>
-<!--- Div with subit button -->
-
-<div id="submitValues">
-
-    <!--- HTML Submit button with onclick-->
-    <button type="button" id="submitButton">Submit</button>
-
-</div>
 
 
 </body>
