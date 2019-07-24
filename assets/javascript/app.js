@@ -1,25 +1,23 @@
-/// Set clock countdown
+/// Set countdown function
 
-    //Use a set interval function... 30 secound timer
-    setInterval(function(){ alert("Times Up"); }, 30000);
-    // If timer hits zero, submit values function
-    
-        //Alert times up 
-        
-        //Show answer correct and incorect
+    /// Set the timer to 30 seconds
 
+    /// Document innerHtml to #timer
 
-/// When html submit, check user input values
+    // Alert user time up when hits zero
 
-    // Could use an array?
+        // When timer == submit answers
 
-// Jquery alert to check values of answers
+    // Grab answers 
 
-    // If answer is correct, show correct to user
+        // Check if wrong or correct against value wrong or correct
 
-   // If answer is false, show incorrect
+    // Show user which answer is correct 
 
+        // Document innerHTML correct or incorrect to divs
 
+    // Show number of user correct incorrect or unanswer\
 
+        // Counter function
 
-    
+        //Write to html using Javascript function
