@@ -1,17 +1,18 @@
 
 
 /// Set countdown function
-object.addEventListener("load", document)
+
 function timer(){
     var sec = 30;
     var timer = setInterval(function(){
-        document.getElementById(#"timer").innerHTML='00:'+sec;
+        document.getElementById("timer").innerHTML='00:'+sec;
         sec--;
         if (sec < 0) {
             clearInterval(timer);
         }
     }, 1000);
 }
+document.getElementById("timer").addEventListener("load", timer);
 
     /// Set the timer to 30 seconds
     
