@@ -8,6 +8,7 @@ body {
     border-width: 3px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 img  {
@@ -19,4 +20,8 @@ img  {
 #imageWide {
     height: 400px;
     width: 450px;
+}
+
+html {
+    scroll-behavior: smooth
 }
