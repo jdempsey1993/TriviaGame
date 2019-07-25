@@ -1,4 +1,15 @@
-h1,h2, #questionForm, #submitButton {
+body {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+img  {
+    height: 375px;
+    width: 300px;
+    display: inline-block;
 }

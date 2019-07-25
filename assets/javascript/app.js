@@ -1,8 +1,8 @@
 /// Set countdown function
 
     /// Set the timer to 30 seconds
-     function 
-
+    
+``
     /// Document innerHtml to #timer
 
     // Alert user time up when hits zero
