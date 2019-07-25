@@ -15,11 +15,13 @@ img  {
     height: 375px;
     width: 300px;
     display: inline-block;
+    max-width: 100%;
 }
 
 #imageWide {
     height: 400px;
     width: 450px;
+
 }
 
 html {

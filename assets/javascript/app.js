@@ -9,6 +9,7 @@ function timer(){
         sec--;
         if (sec < 0) {
             clearInterval(timer);
+            alert ("Time is up!")
         }
     }, 1000);
 }
