@@ -6,10 +6,17 @@ body {
     border-style: solid;
     border-color: white;
     border-width: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 img  {
     height: 375px;
     width: 300px;
     display: inline-block;
+}
+
+#imageWide {
+    height: 400px;
+    width: 450px;
 }
