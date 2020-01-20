@@ -4,7 +4,7 @@ A fan trivia game that uses multiple front end elements. The user must complete 
 [View the project here.](https://jdempsey1993.github.io/TriviaGame/)
 ------
 
-![Image of project]()
+![Image of project](https://github.com/jdempsey1993/TriviaGame/blob/master/Trivia%20Game.png)
 
 Installation
 ---
